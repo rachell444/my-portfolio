@@ -41,13 +41,13 @@ export function About() {
               <div 
                 className="absolute inset-0" 
                 style={{
-                  background: 'linear-gradient(to bottom right, rgba(139, 92, 246, 0.2), rgba(30, 64, 175, 0.2))',
-                  backdropFilter: 'blur(12px)',
+                  background: 'linear-gradient(to bottom right, rgba(139, 92, 246, 0.12), rgba(30, 64, 175, 0.10))',
+                  backdropFilter: 'blur(4px)',
                 }}
               />
               
               {/* Color gradient overlay for consistent styling */}
-              <div className="absolute inset-0 bg-gradient-to-br from-[#8F00FF]/40 via-transparent to-[#00D8FF]/40 opacity-80" />
+              <div className="absolute inset-0 bg-gradient-to-br from-[#8F00FF]/30 via-transparent to-[#00D8FF]/30 opacity-70" />
             </div>
             
             {/* Subtle grid pattern */}
