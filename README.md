@@ -1,4 +1,4 @@
-# Portfolio Website
+# Rachell Moron Portfolio – Frontend Developer
 
 A visually stunning, interactive, and fully responsive personal portfolio built with Next.js, React, and TailwindCSS. This portfolio showcases your projects, skills, and contact information with beautiful glassmorphism effects, animated hero sections, and a custom 3D globe with stylized continents.
 

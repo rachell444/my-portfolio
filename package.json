@@ -1,7 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "rachell-moron-portfolio-frontend-developer",
   "version": "0.1.0",
   "private": true,
+  "description": "Rachell Moron Portfolio – Frontend Developer",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

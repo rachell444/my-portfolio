@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rachell Morón | Frontend Developer & UI/UX Designer",
-  description: "Frontend Developer and UI/UX Designer specializing in creating seamless user experiences and modern web applications",
-  keywords: ["frontend developer", "UI/UX designer", "web development", "React", "Next.js", "TypeScript"],
+  title: "Rachell Moron Portfolio – Frontend Developer",
+  description: "Portfolio of Rachell Moron, Frontend Developer. Projects, skills, and contact information with modern UI and 3D globe.",
+  keywords: ["Rachell Moron", "frontend developer", "portfolio", "web development", "React", "Next.js", "TypeScript", "UI/UX"],
 };
 
 export default function RootLayout({
