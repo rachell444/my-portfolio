@@ -55,4 +55,4 @@ Deploy easily to [Vercel](https://vercel.com/), [Netlify](https://www.netlify.co
 
 ---
 
-Feel free to fork, customize, and use this portfolio as your own!
+I’d love to hear your feedback or see your collaboration! If you have ideas to improve this portfolio or want to make changes, feel free to open an issue or pull request — I’d be excited to see how you’d enhance it.
