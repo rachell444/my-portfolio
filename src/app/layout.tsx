@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={`${inter.variable} font-sans bg-[#030014] text-white overflow-x-hidden selection:bg-violet-500/30`}>
         <div className="relative min-h-screen">
           {children}
