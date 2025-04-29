@@ -41,7 +41,8 @@ export function About() {
               <div 
                 className="absolute inset-0" 
                 style={{
-                  background: 'linear-gradient(to bottom right, rgba(139, 92, 246, 0.08), rgba(30, 64, 175, 0.06))',
+                  background: 'linear-gradient(to bottom right, rgba(139, 92, 246, 0.10), rgba(30, 64, 175, 0.08))',
+                  backdropFilter: 'blur(2px)',
                 }}
               />
               
