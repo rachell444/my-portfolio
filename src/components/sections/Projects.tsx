@@ -21,7 +21,7 @@ const projects = [
     image: '/images/tokenview.jpg',
     stack: ['react', 'tailwind', 'chartjs', 'coingecko'],
     github: 'https://github.com/rachell444/token-view',
-    live: 'https://token-view-eight.vercel.app/'
+    live: 'https://token-view-alpha.vercel.app/'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projects = [
     image: '/images/novaecommerce.jpg',
     stack: ['nextjs', 'tailwind', 'typescript'],
     github: 'https://github.com/rachell444/nova-ecommerce',
-    live: 'https://nova-ecommerce-zeta.vercel.app/'
+    live: 'https://nova-ecommerce-three.vercel.app/'
   },
   {
     id: 4,
