@@ -4,6 +4,13 @@ import { MotionDiv } from '@/components/motion';
 import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Grid Background */}
@@ -57,22 +64,21 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            whileHover={{ scale: 1.03 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             className="inline-block"
           >
-            {/* Botón actualizado con ancla para Projects */}
-            <a
-              href="#projects"
-              className="group relative px-8 py-3 rounded-full text-white/90 font-medium transition-all duration-300"
+            <button
+              onClick={scrollToProjects}
+              className="group relative px-12 py-4 rounded-full text-white/90 font-medium transition-all duration-300 shadow-lg hover:shadow-xl"
             >
-              <span className="relative z-10 flex items-center gap-2">
+              <span className="relative z-10 flex items-center gap-3">
                 Show My Work
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </span>
-              <div className="absolute inset-0 rounded-full border border-transparent bg-gradient-to-r from-[#8F00FF] to-[#00D8FF] opacity-20 transition-all duration-300 group-hover:opacity-30 group-hover:blur-sm" />
-              <div className="absolute inset-0 rounded-full border border-[#8F00FF] bg-gradient-to-r from-[#8F00FF]/10 to-[#00D8FF]/10" />
-            </a>
+              <div className="absolute inset-0 rounded-full border border-transparent bg-gradient-to-r from-[#8F00FF] to-[#00D8FF] opacity-30 transition-all duration-300 group-hover:opacity-50 group-hover:blur-md" />
+              <div className="absolute inset-0 rounded-full border border-[#8F00FF] bg-gradient-to-r from-[#8F00FF]/20 to-[#00D8FF]/20" />
+            </button>
           </MotionDiv>
         </MotionDiv>
       </div>
