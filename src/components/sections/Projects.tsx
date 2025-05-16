@@ -30,7 +30,7 @@ const projects = [
     image: '/images/novaecommerce.jpg',
     stack: ['nextjs', 'tailwind', 'typescript'],
     github: 'https://github.com/rachell444/nova-ecommerce',
-    live: 'nova-ecommerce-three.vercel.app/'
+    live: 'https://nova-ecommerce-three.vercel.app/'
   },
   {
     id: 4,
